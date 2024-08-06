@@ -225,8 +225,7 @@ const Team = () => {
     }
     
     const checkValidation = (field, value) => {
-        //  let formData = event.target.value;
-        // console.log(value,field);
+       
         if (field === 'name') {
             setNameError('');
         }
